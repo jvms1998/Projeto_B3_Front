@@ -1,0 +1,21 @@
+#app {
+    display: grid;
+    grid-template-columns: 245px 1fr;
+
+}
+
+
+#side_bar {
+
+   height: 100vh;
+   border: 5px solid rgb(8, 0, 0);   
+    
+}
+
+header{
+
+    height: 62px;
+    width: 100vw;    
+    background-color: aquamarine;
+
+}
