@@ -24,7 +24,17 @@
                 <div class="row">
 
                     <div class="col-md-3">
-                        <div class="card">Dash1</div>
+                        <div class="card"><h4>Total</h4>
+                            <div class="row">
+                                <div class="col-md-4 p-0">
+                                    75%
+                                </div>
+
+                                <div class="col-md-8 p-0">
+                                    <canvas id="grafico_interno" height="110px"></canvas>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                     <div class="col-md-3">
@@ -49,7 +59,7 @@
                     </div>
 
                     <div class="col-md-7">
-                        <div class="card">Gráfico 1</div>
+                        <div class="card" style="height:450px;"><canvas id="myChart" height="420px"></canvas></div>
                     </div>
 
                 </div>
@@ -62,4 +72,8 @@
 </body>
 </html>
 
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script src="./scripts.js"></script>
+<script src="./graficos.js"></script>
+
+
