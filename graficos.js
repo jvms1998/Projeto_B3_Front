@@ -42,9 +42,9 @@
     );
    
     /////////////////////////////////////////////////////////////////////////////////////////////////////////
-                                // CÓDIGO DO GRÁFICO INTERNO
+  // CÓDIGO DO GRÁFICO INTERNO 1
 
-    const labels_grafico_interno = [
+    const labels_grafico_interno1 = [
         '',
         '',
         '',
@@ -58,8 +58,8 @@
   
       ];
     
-      const data_grafico_interno = {
-        labels: labels_grafico_interno,
+      const data_grafico_interno1 = {
+        labels: labels_grafico_interno1,
         datasets: [{
           label: 'Ações A',
           backgroundColor: 'rgb(255, 99, 132)',
@@ -69,9 +69,9 @@
         }]
       };
     
-      const config_grafico_interno = {
+      const config_grafico_interno1 = {
         type: 'line',
-        data: data_grafico_interno,
+        data: data_grafico_interno1,
         options: {
             plugins: {
               title: {
@@ -99,8 +99,200 @@
           }
       };
     
-      const grafico_interno = new Chart(        
-        document.getElementById('grafico_interno'),
-        config_grafico_interno
+      const grafico_interno1 = new Chart(        
+        document.getElementById('grafico_interno1'),
+        config_grafico_interno1
       );
      
+
+      /////////////////////////////////////////////////////////////////////////////////////////////////////////
+  // CÓDIGO DO GRÁFICO INTERNO 2
+
+    const labels_grafico_interno2 = [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+
+    ];
+  
+    const data_grafico_interno2 = {
+      labels: labels_grafico_interno2,
+      datasets: [{
+        label: 'Ações A',
+        backgroundColor: 'rgb(255, 99, 132)',
+        borderColor: 'rgb(255, 99, 132)',
+        data: [10, 10, 5, 2, 20, 30, 45],
+        pointRadius:0,
+      }]
+    };
+  
+    const config_grafico_interno2 = {
+      type: 'line',
+      data: data_grafico_interno2,
+      options: {
+          plugins: {
+            title: {
+              display: false
+            },
+            legend: {
+              display: false
+            }
+          },
+          scales: {
+              x: {
+                grid: {
+                  display: false,
+                }
+              },
+              y: {
+                  grid: {
+                    display: false,
+                  }
+                }
+          },
+          interaction: {
+            intersect: false,
+          }
+        }
+    };
+  
+    const grafico_interno2 = new Chart(        
+      document.getElementById('grafico_interno2'),
+      config_grafico_interno2
+    );
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+                                     // CÓDIGO DO GRÁFICO INTERNO 3
+
+  const labels_grafico_interno3 = [
+    '',
+    '',
+    '',
+    '',
+    '',
+    '',
+    '',
+    '',
+    '',
+    '',
+                            
+  ];
+
+  const data_grafico_interno3 = {
+    labels: labels_grafico_interno3,
+    datasets: [{
+      label: 'Ações A',
+      backgroundColor: 'rgb(255, 99, 132)',
+      borderColor: 'rgb(255, 99, 132)',
+      data: [10, 10, 5, 2, 20, 30, 45],
+      pointRadius:0,
+    }]
+  };
+
+  const config_grafico_interno3 = {
+    type: 'line',
+    data: data_grafico_interno3,
+    options: {
+        plugins: {
+          title: {
+            display: false
+          },
+          legend: {
+            display: false
+          }
+        },
+        scales: {
+            x: {
+              grid: {
+                display: false,
+              }
+            },
+            y: {
+                grid: {
+                  display: false,
+                }
+              }
+        },
+        interaction: {
+          intersect: false,
+        }
+      }
+  };
+
+  const grafico_interno3 = new Chart(        
+    document.getElementById('grafico_interno3'),
+    config_grafico_interno3
+  );
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+                                     // CÓDIGO DO GRÁFICO INTERNO 3
+
+ const labels_grafico_interno4 = [
+  '',
+  '',
+  '',
+  '',
+  '',
+  '',
+  '',
+  '',
+  '',
+  '',
+                          
+];
+                                  
+const data_grafico_interno4 = {
+  labels: labels_grafico_interno4,
+  datasets: [{
+    label: 'Ações A',
+    backgroundColor: 'rgb(255, 99, 132)',
+    borderColor: 'rgb(255, 99, 132)',
+    data: [10, 10, 5, 2, 20, 30, 45],
+    pointRadius:0,
+  }]
+};
+                                  
+const config_grafico_interno4 = {
+  type: 'line',
+  data: data_grafico_interno4,
+  options: {
+      plugins: {
+        title: {
+          display: false
+        },
+        legend: {
+          display: false
+        }
+      },
+      scales: {
+          x: {
+            grid: {
+              display: false,
+            }
+          },
+          y: {
+              grid: {
+                display: false,
+              }
+            }
+      },
+      interaction: {
+        intersect: false,
+      }
+    }
+};
+                                  
+const grafico_interno4 = new Chart(        
+  document.getElementById('grafico_interno4'),
+  config_grafico_interno4
+);  
